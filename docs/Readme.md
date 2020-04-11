@@ -81,8 +81,8 @@ Run the main.py file with following arguments:
 <center>Dense (1, Activation=linear) 
 
 <center>↓ 
+<center>Output (Policy=epsilon-greedy policy, Optimizer=RMSprop, metrics=mae) </center>
 
-<center>Output (Policy=epsilon-greedy policy, Optimizer=RMSprop, metrics=mae) 
 
 
 
