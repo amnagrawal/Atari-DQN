@@ -56,33 +56,19 @@ Run the main.py file with following arguments:
 
 <center>Input (84 x 84 x 4) </center>
 <center>↓ </center>
-
 <center>Conv2D (32, (8, 8), Activation=relu) </center>
-
 <center>↓ </center>
-
 <center>Conv2D (64, (4, 4), Activation=relu) </center>
-
 <center>↓ </center>
-
 <center>Conv2D (64, (3, 3), Activation=relu) </center>
-
 <center>↓ </center>
-
 <center>Flatten() </center>
-
 <center>↓ </center>
-
 <center>Dense (512, Activation=relu) </center>
-
 <center>↓ </center>
-
 <center>Dense (1, Activation=linear) </center>
-
 <center>↓ </center>
 <center>Output (Policy=epsilon-greedy policy, Optimizer=RMSprop, metrics=mae) </center>
-
-
 
 
 
